@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/outline"
+    android:orientation="vertical"
+    android:elevation="15dp"
+    android:clickable="true"
+    android:minHeight="58dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="2sp"
+        android:text="name"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:maxLines="1"
+        android:ellipsize="none"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/lifts"
+            android:layout_margin="15dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="lifts"
+            android:clickable="true"
+            android:lineSpacingExtra="5dp"
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lifts"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Update"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF5F5F"
+            android:minHeight="42dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

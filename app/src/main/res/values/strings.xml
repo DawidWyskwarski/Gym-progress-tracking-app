@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">for the gym</string>
+
+    <string-array name="quotes">
+        <item>"Don't be sorry, be better"</item>
+        <item>Find what you love and let it kill you</item>
+        <item>You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.</item>
+        <item>In the depth of winter, I finally learned that within me there lay an invincible summer.</item>
+        <item>The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.</item>
+        <item>Dwell on the beauty of life. Watch the stars, and see yourself running with them.</item>
+        <item>Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.</item>
+        <item>Living for the future is more important than trying to avenge the past.</item>
+        <item>"The sea is vast so someday, definitely, you'll come across friends to protect you. No one is born into this world to be alone!"</item>
+        <item>You have power over your mind - not outside events. Realize this, and you will find strength.</item>
+        <item>"I'd rather be hated for who I am, than loved for who I am not."</item>
+        <item>The worst crime is faking it.</item>
+        <item>Everything will be aight</item>
+        <item>Be the change that you wish to see in the world.</item>
+        <item>For what is a man, what has he got? If not himself, then he has naught</item>
+    </string-array>
+
+    <string-array name="types_of_equipment">
+        <item>Barbell (BB)</item>
+        <item>Dumbbell (DB)</item>
+        <item>Machine (M)</item>
+        <item>Cables (C)</item>
+        <item>Body Weight (BW)</item>
+    </string-array>
+
+    <integer name="day">-1</integer>
+
+</resources>
